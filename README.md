@@ -17,13 +17,13 @@
 
 ### Dice class
 
-+ We first make a rolldice method \
-+ We are considering one dice so the minimum number will be equal to "1" and maximum number will be "6"\
-+ If for wxample we consider two dice the minimum number would be "2" and maximum number will be "12"\
-+ After assigning minimum and maximum numbers \
-+ Using "math.random()" which is an inbuilt method r\
-+ "random()" method is used to generate a random number between the sepecific range\
-+ in this rolldice method the range is from 1 to 6\
++ We first make a rolldice method 
++ We are considering one dice so the minimum number will be equal to "1" and maximum number will be "6"
++ If for wxample we consider two dice the minimum number would be "2" and maximum number will be "12"
++ After assigning minimum and maximum numbers 
++ Using "math.random()" which is an inbuilt method 
++ "random()" method is used to generate a random number between the sepecific range
++ in this rolldice method the range is from 1 to 6
 + our minimum number is 1 and maximum number is 6
 
 ### User class
