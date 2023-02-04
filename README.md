@@ -72,13 +72,13 @@
 
 #### Conditions
 
-1. If the nwe position equal to the ending point the player finished the game
+1. If the new position equal to the ending point the player finished the game
 2. If the new position is in the map of snake positions then the new position beigins from the snake tail position
 3. If the new position is in the map of ladders position then the new position begins from the head of the ladder
 4. If the new position is greater than ending point of the board then the new position remains same
 5. If none of the conditions are there then the new position is new position + old position
  
- + Then the turn goesto the next player after evaluating the conditions with one player and this player is added back to the player queue again
+ + Then the turn goes to the next player after evaluating the conditions with one player and this player is added back to the player queue again
  
  ### Main class
  
