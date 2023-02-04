@@ -35,3 +35,32 @@
 + int method to get player position and player position value 
 + string method to get player name
 
+### Board class
+
+##### Board class contains
+ 
++ Start and end points of the game
++ Dice
++ We store the starting point and ending points of the snakes and ladders using a Hashmap
++ A queue is used to store the players
++ Queue uses the principle of first in first out [FIFO]
++ Once the player completes its turn then the turn goes to the next player and the old player is again added to the queue after completion the turns of all the players the first player gets his turn again
++ Method board with parameters starting position ending position haspmap of starting and ending points of snakes , hashmap of starting and ending points of the ladders , a queue of players
++ using this keyword we refer them 
++ ".poll()" methond of Queue interface returns and removes the element at the frontend of the container
++ oldpos is the current position of the player
++ new position is the new value obtained after rolling the dice , that is old position + value obtained after rolling the dice
+
+#### Conditions
+
+1. If the nwe position equal to the ending point the player finished the game
+2. If the new position is in the map of snake positions then the new position beigins from the snake tail position
+3. If the new position is in the map of ladders position then the new position begins from the head of the ladder
+4. If the new position is greater than ending point of the board then the new position remains same
+5. If none of the conditions are there then the new position is new position + old position
+ 
+ + Then the turn goesto the next player after evaluating the conditions with one player and this player is added back to the player queue again
+ 
+ ### Main class
+  
+ 
