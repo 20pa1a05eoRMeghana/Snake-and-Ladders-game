@@ -47,6 +47,7 @@
 + Once the player completes its turn then the turn goes to the next player and the old player is again added to the queue after completion the turns of all the players the first player gets his turn again
 + Method board with parameters starting position ending position haspmap of starting and ending points of snakes , hashmap of starting and ending points of the ladders , a queue of players
 + using this keyword we refer them 
+#### Method game
 + ".poll()" methond of Queue interface returns and removes the element at the frontend of the container
 + oldpos is the current position of the player
 + new position is the new value obtained after rolling the dice , that is old position + value obtained after rolling the dice
@@ -62,5 +63,18 @@
  + Then the turn goesto the next player after evaluating the conditions with one player and this player is added back to the player queue again
  
  ### Main class
-  
  
+ + Taking the input 
+ 1. size of the board
+ 2. No of snakes
+ 3. Starting a hashmap to take the inputs to store the starting and ending points of the snakes
+ 4. Starting the for loop to store the inputs by spliting
+ 5. No of ladders
+ 6. Starting a hashmap to take the inputs to store the starting and ending points of the ladders
+ 7. Starting the for loop to store the inputs by spliting
+ 8. No of players
+ 9. Queue to store the names of the players
+ 10. creating a dice object
+ 
+ + board b with starting point as "1" and ending point from the user , dice , snakes , ladders , and playerturn
+ + b.game() starting the game.
