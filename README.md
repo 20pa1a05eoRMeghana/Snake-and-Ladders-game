@@ -1,6 +1,6 @@
-+# Snake-and-Ladders-game
+# Snake-and-Ladders-game
 
-## USER
+### USER
 + Board size is defined by the user
 + Number of players is given by the user
 + Input to number of snakes is given by the user
